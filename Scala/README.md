@@ -1,6 +1,6 @@
 # Solution using SCALA
 
-The classes designed to solve this challenge can be found in the folder *[Scala/first-part/src/](Scala/first-part/src/)*.
+The classes designed to solve this challenge can be found in the folder *[Scala/first-part/src/](https://github.com/gabrielmd/semantix/tree/master/Scala/first-part/src)*.
 
 
 ## First part
