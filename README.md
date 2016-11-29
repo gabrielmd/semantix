@@ -32,8 +32,10 @@ In the respective folders, it is possible to find solutions using two different 
 
 ### Algorithm
 
-To calculate the distances in the graph, the Breadth-First Search algorithm was used.
-Given the edges have no weight, it can provide a successful solution in `O(n^2)` time.
+To calculate the distances in the graph, the Breadth-First Search (BFS) algorithm was
+used.
+Given it is an undirected graph with unit edge weights, the BFS can provide a successful
+solution in $O(n^2)$ time.
 
 ### Strategy
 

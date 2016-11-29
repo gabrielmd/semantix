@@ -1,8 +1,8 @@
-## Solution using R
+# Solution using R
 
 The functions designed to solve this challenge can be found in file `functions.R`.
 
-### First part
+## First part
 
 File `solve.R` can be executed. 
 
@@ -20,12 +20,13 @@ Example of output:
 5      5     51 0.005813953
 ```
 
-### Second part
+## Second part
 
+To start the WebServer, the code in the file `solve.R` can be executed. 
 There are two APIs: 
 
  * `GET /centrality` -- there is no extra parameter. It returns the rank of vertices based on their closeness.
- * `POST /addEdge` -- there are two parameters (`a` and `b`) to identify the vertices. It will add the new edge and recompute the closeness of the graph. It returns `TRUE` when the procedure is over.
+ * `POST /addEdge` -- there are two parameters (`a` and `b`) to identify the vertices. It will add the new edge and recompute the closeness of the graph. The API returns `TRUE` when the procedure is over.
 
 For the second part, it is necessary to install two external packages: `devtools` and `plumber`.
 If needed, the installation is made when file `server.R` is sourced.
