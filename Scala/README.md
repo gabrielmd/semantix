@@ -28,7 +28,7 @@ In the folder `restAPI`, the file `scripts/startup.sh` must be executed to start
 There are two APIs: 
 
  * `GET /centrality` -- there is no extra parameter. It returns the rank of vertices based on their closeness.
- * `POST /addEdge` -- there are two parameters (`a` and `b`) to identify the vertices. It will add the new edge and recompute the closeness of the graph. It returns `TRUE` when the procedure is over.
+ * `POST /addEdge` -- there are two parameters (`a` and `b`) to identify the vertices. It will add the new edge and recompute the closeness of the graph. It returns a message of success when the procedure is over.
 
 For the second part, it was used the framework *Spring* to provide the RESTful interface.
 
