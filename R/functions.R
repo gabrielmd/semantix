@@ -41,7 +41,7 @@ add.edge <- function(vertex.a, vertex.b, all.vertices = vertices, all.edges = ed
         }
         
         # if vertex B is new, add
-        if(! (vertex.b %in% vertices)){
+        if(! (vertex.b %in% all.vertices)){
                 all.vertices <- c(all.vertices, vertex.b)
                 all.edges[[as.character(vertex.b)]] <- c(vertex.a)
         }else{ # otherwise, just append B to its list of neighbors
@@ -130,19 +130,3 @@ api.add.edge <- function(a, b){
 api.centrality <- function(){
         return (centrality)
 }
-
-#######
-# The following lines will load the minimum information to start
-######
-
-# load graph info
-l <- read.graph.info("edges.dat")
-
-vertices <<- l[["vertices"]]
-edges <<- l[["edges"]]
-
-# calculate the shortest distances
-shortest.paths <<- calculate.shortest.paths(vertices, edges)
-
-# calculate closeness centrality and rank
-centrality <<- calculate.centrality(shortest.paths)

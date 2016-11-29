@@ -8,5 +8,6 @@ if(! ("plumber" %in% installed.packages()[,"Package"])){
 }
 
 library(plumber)
+source("solve.R")
 r <- plumb("functions.R")  # 
 r$run(port=8080)
