@@ -7,7 +7,7 @@ The classes designed to solve this challenge can be found in the folder `Scala`.
 
 ### First part
 
-File `Challenge.scala` can be compiled and executed passing the parameter `aux/edges.dat`. 
+File `Challenge.scala` can be compiled and executed passing the parameter `first-part/aux/edges.dat`. 
 
 The output is the rank of vertices based on their closeness.
 
