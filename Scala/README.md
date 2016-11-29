@@ -23,7 +23,7 @@ Example of output:
 ## Second part
 
 In the folder `restAPI`, the file `scripts/startup.sh` must be executed to start the WebServer. 
-There are two APIs: 
+There are two APIs that will run at the port $8080$: 
 
  * `GET /centrality` -- there is no extra parameter. It returns the rank of vertices based on their closeness.
  * `POST /addEdge` -- there are two parameters (`a` and `b`) to identify the vertices. It will add the new edge and recompute the closeness of the graph. It returns a message of success when the procedure is over.

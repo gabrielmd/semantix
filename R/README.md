@@ -23,7 +23,7 @@ Example of output:
 ## Second part
 
 To start the WebServer, the code in the file `solve.R` can be executed. 
-There are two APIs: 
+There are two APIs that will run at the port $8080$: 
 
  * `GET /centrality` -- there is no extra parameter. It returns the rank of vertices based on their closeness.
  * `POST /addEdge` -- there are two parameters (`a` and `b`) to identify the vertices. It will add the new edge and recompute the closeness of the graph. The API returns `TRUE` when the procedure is over.
