@@ -1,6 +1,6 @@
 # Solution using R
 
-The functions designed to solve this challenge can be found in file `functions.R`.
+The functions designed to solve this challenge can be found in file `[functions.R](functions.R)`.
 
 ## First part
 

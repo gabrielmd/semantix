@@ -1,6 +1,6 @@
 # Solution using SCALA
 
-The classes designed to solve this challenge can be found in the folder *Scala*.
+The classes designed to solve this challenge can be found in the folder *[Scala/first-part/src/](Scala/first-part/src/)*.
 
 
 ## First part
@@ -28,7 +28,7 @@ There are two APIs:
  * `GET /centrality` -- there is no extra parameter. It returns the rank of vertices based on their closeness.
  * `POST /addEdge` -- there are two parameters (`a` and `b`) to identify the vertices. It will add the new edge and recompute the closeness of the graph. It returns a message of success when the procedure is over.
 
-For the second part, it was used the framework *Spring* to provide the RESTful interface.
+For the second part, it was used the framework *Spring* to provide the RESTful interfaces.
 
 Examples of outputs:
 
