@@ -5,7 +5,7 @@
 source("functions.R")
 
 # load graph info
-l <- read.graph.info("edges.dat")
+l <- read.graph.info("aux/edges.dat")
 
 vertices <<- l[["vertices"]]
 edges <<- l[["edges"]]

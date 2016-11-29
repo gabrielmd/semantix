@@ -16,7 +16,7 @@ object Main extends App {
     // calculate closeness centrality and rank
     graph.computeCentrality()
   
-  
+  /* Now, load Web Server */
   implicit val system = ActorSystem("Rest-Service")
 
   val guidService = system actorOf Props(new GuidServiceActor)
