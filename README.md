@@ -35,7 +35,7 @@ In the respective folders, it is possible to find solutions using two different 
 To calculate the distances in the graph, the Breadth-First Search (BFS) algorithm was
 used.
 Given it is an undirected graph with unit edge weights, the BFS can provide a successful
-solution in $$O(n^2)$$ time.
+solution in *O(n<sup>2</sup>)* time.
 
 ### Strategy
 
